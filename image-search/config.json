@@ -1,0 +1,9 @@
+{
+    "output_images_folder": "output_images",
+    "img_desc_model_id": "meta-llama/Llama-3.2-3B-Instruct",
+    "qdrant_host": "localhost",
+    "qdrant_port": 6333,
+    "collection_name": "test_collection2",
+    "image_directory": "/workspace/images",
+    "clip_model_name": "ViT-L-14"
+}

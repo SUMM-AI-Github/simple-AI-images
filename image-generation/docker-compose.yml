@@ -1,0 +1,13 @@
+services:
+  gradio-app:
+    build: ./
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    network_mode: host
+    tty: true
+    stdin_open: true
+    env_file:
+      - .env
+    volumes:
+      - .:/workspace

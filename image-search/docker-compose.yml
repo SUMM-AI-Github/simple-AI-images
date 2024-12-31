@@ -1,0 +1,32 @@
+services:
+  gradio-app:
+    build:
+      context: .
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+    depends_on:
+      - qdrant
+    network_mode: host
+    tty: true
+    stdin_open: true
+    env_file:
+      - .env
+    volumes:
+      - ./:/workspace
+    
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    configs:
+      - source: qdrant_config
+        target: /qdrant/config/production.yaml
+    volumes:
+      - ./qdrant_data:/qdrant/storage
+
+configs:
+  qdrant_config:
+    content: |
+      log_level: INFO      

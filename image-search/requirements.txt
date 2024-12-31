@@ -1,0 +1,10 @@
+gradio
+pillow
+torch
+open-clip-torch
+accelerate
+qdrant-client
+openai
+python-dotenv
+transformers
+qdrant-client

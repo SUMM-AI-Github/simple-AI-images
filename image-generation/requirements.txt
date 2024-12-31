@@ -1,0 +1,9 @@
+gradio
+pillow
+torch
+transformers
+peft
+protobuf
+python-dotenv
+torchvision
+sentencepiece
