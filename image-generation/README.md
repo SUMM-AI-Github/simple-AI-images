@@ -20,7 +20,7 @@
 
 ### Clone the repository
 ```bash
-git clone https://github.com/SUMM-AI-Github/simple-AI-images.git
+git clone https://github.com/SUMM-AI-Github/easy-language-images.git
 cd easy-language-images/image-generation
 ```
 

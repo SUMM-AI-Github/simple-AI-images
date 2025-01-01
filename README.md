@@ -2,9 +2,9 @@
 
 **This project helps you build a search and generation pipeline for Easy Language Images (Leichte Sprache Bilder).**
 
-[![GitHub License](https://img.shields.io/github/license/SUMM-AI-Github/simple-AI-images)](https://github.com/SUMM-AI-Github/simple-AI-images/blob/main/LICENSE)
-[![PyPI - Python](https://img.shields.io/badge/python-v3.9+-blue.svg)](https://github.com/SUMM-AI-Github/simple-AI-images)
-[![GitHub Stars](https://img.shields.io/github/stars/SUMM-AI-Github/simple-AI-images.svg)](https://github.com/SUMM-AI-Github/simple-AI-images/stargazers)
+[![GitHub License](https://img.shields.io/github/license/SUMM-AI-Github/easy-language-images)](https://github.com/SUMM-AI-Github/easy-language-images/blob/main/LICENSE)
+[![PyPI - Python](https://img.shields.io/badge/python-v3.9+-blue.svg)](https://github.com/SUMM-AI-Github/easy-language-images)
+[![GitHub Stars](https://img.shields.io/github/stars/SUMM-AI-Github/easy-language-images.svg)](https://github.com/SUMM-AI-Github/easy-language-images/stargazers)
 
 
 ## Introduction
